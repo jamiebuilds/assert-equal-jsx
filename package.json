@@ -1,6 +1,6 @@
 {
   "name": "assert-equal-jsx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "assertEqualJSX",
   "main": "index.js",
   "author": "James Kyle <me@thejameskyle.com>",
