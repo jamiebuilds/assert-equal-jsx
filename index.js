@@ -4,8 +4,9 @@ var diffWords = require('diff').diffWords;
 var chalk = require('chalk');
 var fail = require('assert').fail;
 
+var inKarma = !!(global.top && global.top.karma);
 var colors = new chalk.constructor({
-  enabled: !!global.top.karma
+  enabled: inKarma
 });
 
 module.exports = function assertEqualJSX(actual, expected, opts) {

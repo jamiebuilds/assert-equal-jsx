@@ -10,5 +10,12 @@
     "diff": "^2.2.2",
     "js-beautify": "^1.6.2",
     "react-dom": "^0.14.0 || ^15.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "react": "^0.14.0 || ^15.0.0"
+  },
+  "scripts": {
+    "test": "mocha test.js"
   }
 }
